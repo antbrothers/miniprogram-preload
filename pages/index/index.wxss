@@ -1,0 +1,12 @@
+.normal-style {
+  width: 95%;
+  height: 40px;
+  background-color: green;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+}

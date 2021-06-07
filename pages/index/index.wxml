@@ -1,0 +1,3 @@
+<view class="container">
+    <view bindtap="jumpSecondPage" hover-class="press-style" class="normal-style" hover-stay-time="100"> 预加载第二个页面</view>    
+</view>
