@@ -43,4 +43,4 @@ class Index extends BasePage {
     this.initData(options);
   }
 }
-Page(new Index({className: 'Index'}));
+Page(new Index({className: 'second'}));

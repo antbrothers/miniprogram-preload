@@ -1,4 +1,3 @@
-require('./lib/wxPage')
 App({
   onLaunch() {    
   },
