@@ -1,4 +1,4 @@
-// app.js
+require('./lib/wxPage')
 App({
   onLaunch() {    
   },

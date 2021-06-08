@@ -7,7 +7,9 @@ class Index extends BasePage {
       testStr: 'this is test'
     }
   }
-
+  onLoaded() {
+    console.log('扩展 onLoaded 函数')
+  }
   onLoad(options) {
     console.log('index 页面 onload 事件执行')
   }
