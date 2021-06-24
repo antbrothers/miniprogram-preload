@@ -7,6 +7,9 @@ class Index extends BasePage {
       testStr: 'this is test'
     }
   }
+  onReady() {
+    console.log('onReady 调用')
+  }
   onLoaded() {
     console.log('扩展 onLoaded 函数')
   }
