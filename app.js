@@ -2,6 +2,7 @@ App({
   onLaunch() {    
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    timestamp: new Date().getTime()
   }
 })

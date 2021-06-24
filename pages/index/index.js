@@ -7,21 +7,20 @@ class Index extends BasePage {
       testStr: 'this is test'
     }
   }
-  onReady() {
+  onReady = () => {
     console.log('onReady 调用')
   }
-  onLoaded() {
+  onLoaded =() => {
     console.log('扩展 onLoaded 函数')
   }
-  onLoad(options) {
-    console.log('index 页面 onload 事件执行')
-    this.$route({path: '../second/index', query: {count: 10, title: '这是第二个页面'}, className: 'second'});
+  onLoad = (options) => {
+    console.log('index 页面 onload 事件执行', options)
+    // this.$route({path: '../second/index', query: {count: 10, title: '这是第二个页面'}, className: 'second'});
   }
 
   jumpSecondPage = function() {    
-    console.log('------ 点击跳转第二页的事件 ------', this)
+    console.log('------ 点击跳转第二页的事件 ------')
     this.$route({path: '../second/index', query: {count: 10, title: '这是第二个页面'}, className: 'second'});
   }
 }
-
 Page(new Index())
