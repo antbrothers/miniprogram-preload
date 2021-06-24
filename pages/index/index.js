@@ -10,9 +10,6 @@ class Index extends BasePage {
   onReady = () => {
     console.log('onReady 调用')
   }
-  onLoaded =() => {
-    console.log('扩展 onLoaded 函数')
-  }
   onLoad = (options) => {
     console.log('index 页面 onload 事件执行', options)
     // this.$route({path: '../second/index', query: {count: 10, title: '这是第二个页面'}, className: 'second'});
